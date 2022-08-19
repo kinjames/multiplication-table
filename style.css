@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1CD6CE;
+}
+
+.form {
+    background: #fff;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,.3);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.score {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    color: rgb(73, 70, 70);
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.input {
+    display: inline-block;
+    width: 100%;
+    font-family: inherit;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    outline: none;
+    font-family: inherit;
+    background: #1CD6CE;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;display: flex; margin: 0 auto; justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0,0,0,.3);
+
+}
+
+.btn:hover {
+    background: #02bbb2;
+}
+
+@media only screen and (max-width:600px) {
+    body,.form {
+        width: 100%;
+    }
+}
